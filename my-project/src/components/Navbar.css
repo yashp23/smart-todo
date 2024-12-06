@@ -1,0 +1,43 @@
+/* Navbar customizations */
+.custom-navbar {
+    border-bottom: 5px;
+    box-shadow: 0 8px 6px rgba(3, 12, 41, 0.2);
+  }
+  
+  /* Hover effects for nav links */
+  .hover-bg-dark:hover {
+    /* margin-top: 2px; */
+    background-color: #18295a;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button styles */
+  .button-group button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .button-group .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .button-group .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .button-group button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Body background */
+  body {
+    background-color: #2f2f2f;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+  
